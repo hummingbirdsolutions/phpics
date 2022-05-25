@@ -1,9 +1,10 @@
 <?php 
+declare(strict_types=1);
 
 namespace HummingbirdSolutions\Phpics;
 
 # https://www.ietf.org/rfc/rfc5545.txt
-class Index
+final class Index
 {
     private function dateToIcsDateFormat($time) {
         return date('Ymd\This', $time) . 'Z';
@@ -19,11 +20,11 @@ class Index
         $description = null)
     {
         if (!isset($datestart)) {
-            throw new Exception("The start date is required");
+            throw new \Exception("The start date is required");
         }
 
         if (!isset($dateend)) {
-            throw new Exception("The end date is required");
+            throw new \Exception("The end date is required");
         }
         
         # TODO: More validations here...

@@ -15,5 +15,7 @@
             "email": "pieter@hummingbirdsolutions.tech"
         }
     ],
-    "require": {}
+    "require-dev": {
+        "phpunit/phpunit": "^9"
+    }
 }
