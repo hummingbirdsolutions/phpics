@@ -1,0 +1,59 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "9459053089e8e9299d918b55c0d8ca8c",
+    "packages": [
+        {
+            "name": "hummingbirdsolutions/phpics",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/hummingbirdsolutions/phpics.git",
+                "reference": "7e5476ef9b6ca60ece7a805d4cb9dbdb166a47d3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/hummingbirdsolutions/phpics/zipball/7e5476ef9b6ca60ece7a805d4cb9dbdb166a47d3",
+                "reference": "7e5476ef9b6ca60ece7a805d4cb9dbdb166a47d3",
+                "shasum": ""
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "HummingbirdSolutions\\Phpics\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Pieter Pottas",
+                    "email": "pieter@hummingbirdsolutions.tech"
+                }
+            ],
+            "description": "A simple PHP ICS lib",
+            "support": {
+                "issues": "https://github.com/hummingbirdsolutions/phpics/issues",
+                "source": "https://github.com/hummingbirdsolutions/phpics/tree/main"
+            },
+            "time": "2022-05-25T03:19:23+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "hummingbirdsolutions/phpics": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.3.0"
+}

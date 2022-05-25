@@ -1,0 +1,12 @@
+{
+    "name": "pieterpottas/test",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Pieterpottas\\Test\\": "src/"
+        }
+    },
+    "require": {
+        "hummingbirdsolutions/phpics": "dev-main"
+    }
+}
