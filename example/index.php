@@ -6,4 +6,4 @@ use \HummingbirdSolutions\Phpics\Index;
 
 $ics = new Index();
 
-echo $ics->generateIcs("Stuff", 99999999, 199999999, "http://www.hummingbirdsolutions.tech/calenderentry/987", "225 Jan Str, Appels, Centurion", "sghfgs", "Dessc");
+echo $ics->generateIcs("Very important meeting", "Meet with the President", "2022-06-06 19:30:13", "2022-06-06 19:50:13", "1600 Pennsylvania Avenue NW, Washington, DC 20500");
